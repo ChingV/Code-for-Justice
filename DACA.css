@@ -1,0 +1,45 @@
+
+.main pic{
+    width: 100%;
+
+.container{
+    box-shadow: 0 6px 10px 0 rgba(102, 111, 204, 0.2);
+}
+}
+.main content{
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    
+}
+h4{
+    text-align: center;
+}
+.h6{
+    text-align: center;
+}
+.column {
+    width: 60%;
+    padding: 60px;
+}
+  
+  /* Spreads out boxed evenly */
+  .row{
+    display: flex; 
+  } 
+ 
+  /* Style cards */
+  .card {
+    box-shadow: 0 6px 10px 0 rgba(102, 111, 204, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color:  #f1f1f1;
+    opacity: 0.0 - 1.0;
+   /* border-radius: 15px; */
+  }
+ 
+  
+  
+  
