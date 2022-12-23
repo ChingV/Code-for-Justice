@@ -1,33 +1,46 @@
 
-.main pic{
+.mainpic{
     width: 100%;
+    
+    /* justify-content: center; */
+}
 
 .container{
-    box-shadow: 0 6px 10px 0 rgba(102, 111, 204, 0.2);
+    box-shadow: 0 10px 10px 0 rgba(102, 111, 204, 0.2);
+    justify-content: center;
 }
-}
+
+
 .main content{
     text-align: center;
     
 }
-h2{
+
+h2{ 
     text-align: center;
     
-}
+} 
 h4{
     text-align: center;
 }
-.h6{
+p{
     text-align: center;
+ 
 }
+
+/*.h6{
+    text-align: center;
+} */
 .column {
     width: 60%;
     padding: 60px;
+    
 }
   
   /* Spreads out boxed evenly */
   .row{
     display: flex; 
+  /* background-image:url(Stay_DACA.png); */
   } 
  
   /* Style cards */
@@ -37,9 +50,33 @@ h4{
     text-align: center;
     background-color:  #f1f1f1;
     opacity: 0.0 - 1.0;
+   
    /* border-radius: 15px; */
   }
- 
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
   
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
   
-  
+    
+    
+footer{
+    text-align: center;
+    background: #97e1f5;
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 3px 3px 5px 6px rgba(102, 111, 204, 0.2);
+}
+   
+    
