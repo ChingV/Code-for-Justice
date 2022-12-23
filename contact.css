@@ -15,3 +15,13 @@ h6 {
     font-family: "Playfair Display";
     letter-spacing: 5px;
 }
+footer{
+    text-align: center;
+    background: #97e1f5;
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 3px 3px 5px 6px rgba(102, 111, 204, 0.2);
+}
