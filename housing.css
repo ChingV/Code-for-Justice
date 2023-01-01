@@ -1,5 +1,43 @@
 body{
     background-color: #f1f1f1;
+    margin: 0;
+}
+h1{
+  font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+  font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{ 
+  font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav ul {
+  list-style-type: none; 
+  margin: 0;
+ padding: 0;
+  overflow: hidden;
+  
+  background-color: #97e1f5;
+
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
+
+nav li a:hover {
+  background-color: rgb(240, 135, 83);
 }
 footer{
     text-align: center;
@@ -11,3 +49,17 @@ footer{
     padding-bottom: 8px;
     box-shadow: 3px 3px 5px 6px lightskyblue;
 }
+/* Desktop */
+@media (min-width: 1024px) {
+    /* Style for desktop */
+  }
+  
+  /* Tablet */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Style for tablet */
+  }
+  
+  /* Mobile */
+  @media (max-width: 767px) {
+    /* Style for mobile */
+  }
