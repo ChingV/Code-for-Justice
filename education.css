@@ -4,8 +4,35 @@ is over-ruled when other items are specified*/
     box-sizing: border-box;
 }
 body{
-    line-height: 1.8;
+    /* line-height: 1.8; */
+    margin: 0;
 }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #97e1f5;
+    box-shadow: 3px 3px 5px 6px rgb(186, 72, 72);
+  }
+  
+  nav li {
+    float: right;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+  }
+  
+  nav li a:hover {
+    background-color: rgb(240, 135, 83);
+  }
 section{
     display: block;
 }
@@ -35,11 +62,17 @@ section{
     display: table;
     content: " ";
 }
+h1{
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
 h2{
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 600px;
     margin-bottom: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 h4{
     font-size: 19px;
@@ -88,3 +121,17 @@ footer{
     padding-top: 8px;
     padding-bottom: 8px;
 }
+/* Desktop */
+@media (min-width: 1024px) {
+    /* Style for desktop */
+  }
+  
+  /* Tablet */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Style for tablet */
+  }
+  
+  /* Mobile */
+  @media (max-width: 767px) {
+    /* Style for mobile */
+  }
