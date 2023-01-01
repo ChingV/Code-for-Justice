@@ -4,8 +4,8 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #97e1f5;
+}
 
-<<<<<<< Updated upstream
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -13,8 +13,6 @@ nav ul {
   overflow: hidden;
   background-color: #97e1f5;
 
-=======
->>>>>>> Stashed changes
 }
 
 nav li {
@@ -74,8 +72,5 @@ footer{
 @media (max-width: 767px) {
   /* Style for mobile */
 }
-<<<<<<< Updated upstream
 
 
-=======
->>>>>>> Stashed changes
