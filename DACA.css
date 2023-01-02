@@ -1,5 +1,6 @@
 <<<<<<< Updated upstream
 
+<<<<<<< HEAD
 =======
 >>>>>>> Stashed changes
 body{
@@ -31,6 +32,8 @@ nav ul {
   nav li a:hover {
     background-color: rgb(240, 135, 83);
   }
+=======
+>>>>>>> refs/remotes/origin/main
 .mainpic{
     width: 100%;
     
@@ -91,6 +94,23 @@ p{
  h3{
   text-shadow: 2px 2px 8px #FF0000;
  }
+<<<<<<< HEAD
+=======
+  
+    
+    
+footer{
+    text-align: center;
+    background: #97e1f5;
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 3px 3px 5px 6px rgba(102, 111, 204, 0.2);
+}
+ 
+>>>>>>> refs/remotes/origin/main
   
     
     
@@ -109,6 +129,7 @@ footer{
     /* Style for desktop */
   }
   
+<<<<<<< HEAD
   /* Tablet */
   @media (min-width: 768px) and (max-width: 1023px) {
     /* Style for tablet */
@@ -125,3 +146,6 @@ footer{
 =======
 >>>>>>> Stashed changes
     
+=======
+  
+>>>>>>> refs/remotes/origin/main

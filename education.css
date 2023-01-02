@@ -120,6 +120,7 @@ footer{
     width: 100%; 
     padding-top: 8px;
     padding-bottom: 8px;
+<<<<<<< HEAD
 }
 /* Desktop */
 @media (min-width: 1024px) {
@@ -135,3 +136,7 @@ footer{
   @media (max-width: 767px) {
     /* Style for mobile */
   }
+=======
+    box-shadow: 3px 3px 5px 6px rgba(102, 111, 204, 0.2);
+}
+>>>>>>> refs/remotes/origin/main
