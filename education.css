@@ -118,6 +118,10 @@ therefore, is this case every instance that a .text is inside of a .slide,
     line-height: 1.375em;
     font-weight: 400;
     margin-bottom: 30px;
+    color: white;
+}
+.title{
+    color:white;
 }
 footer{
     text-align: center;
@@ -129,6 +133,15 @@ footer{
     padding-bottom: 8px;
     box-shadow: 3px 3px 5px 6px lightskyblue;
 }
+.testbackground{
+    background-image: linear-gradient(rgba(45, 45, 45, .2), rgba(45, 45, 45, .7)), 
+        url(Education_DACA.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
 /* Desktop */
 @media (min-width: 1024px) {
     /* Style for desktop */
