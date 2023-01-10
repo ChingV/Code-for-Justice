@@ -30,8 +30,9 @@ nav ul {
 
 .mainpic{
     width: 100%;
+    object-fit: cover;
     
-    /* justify-content: center; */
+    
 }
 
 .container{
@@ -90,6 +91,7 @@ p{
     border-radius: 10px;
     height: 150px;
     font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow: scroll;
   }
 
 
@@ -118,7 +120,7 @@ footer{
     /* Style for desktop */
   }
   
-<<<<<<< HEAD
+
   /* Tablet */
   @media (min-width: 768px) and (max-width: 1023px) {
     /* Style for tablet */
