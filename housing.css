@@ -40,15 +40,14 @@ body{
 
     /* Main column */
 .main {   
-    -ms-flex: 70%; /* IE10 */
-    flex: 70%;
+    
     background-color: white;
     padding: 20px;
   }
   .imgone {
     
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     border-left: 7px solid rgb(218, 204, 245);
     background-image: url(housing1.png);
     box-shadow: 3px 3px 5px 6px rgb(231, 221, 246);
@@ -56,7 +55,7 @@ body{
   .imgtwo {
     
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     border-left: 7px solid rgb(218, 204, 245);
     background-image: url(housing2.png);
     box-shadow: 3px 3px 5px 6px rgb(231, 221, 246);
@@ -64,7 +63,7 @@ body{
   .imgthree {
    
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     border-left: 7px solid rgb(218, 204, 245);
     background-image: url(housing.png);
     box-shadow: 3px 3px 5px 6px rgb(231, 221, 246);
